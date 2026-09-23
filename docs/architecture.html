@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Architecture — AlwaysConnected</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="nav">
+    <a class="brand" href="../index.html">
+      <span class="mark" aria-hidden="true"></span>
+      AlwaysConnected
+    </a>
+    <nav>
+      <a href="../index.html#layers">Layers</a>
+      <a class="btn ghost" href="https://github.com/huntermyers103121-png/AlwaysConnected" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+  <main class="section" style="max-width:820px">
+    <p class="eyebrow">Docs</p>
+    <h1>Architecture</h1>
+    <p class="lede">Public map only. No secrets. No processor keys. No runnable payout logic.</p>
+
+    <h2>Purpose</h2>
+    <p>AlwaysConnected keeps three jobs in one stack: reachability, visible automation, and a cheap public front door.</p>
+
+    <h2>Layers</h2>
+    <ol class="steps">
+      <li><strong>Public surface.</strong> <span>This site, README, and docs on GitHub Pages.</span></li>
+      <li><strong>Control plane.</strong> <span>Private agent board, job ledger, human gates.</span></li>
+      <li><strong>Execution.</strong> <span>Local / Termux / hosted runners with allow-lists.</span></li>
+      <li><strong>Money movement.</strong> <span>Official processors only. Keys never enter git.</span></li>
+    </ol>
+
+    <h2>Never commit</h2>
+    <p>Passwords, tokens, Stripe/Plaid secrets, customer PII, or anything that stays dangerous because this repository is public.</p>
+
+    <p style="margin-top:36px"><a class="btn primary" href="../index.html">Back to the site</a></p>
+  </main>
+</body>
+</html>
