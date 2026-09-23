@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlwaysConnected — Stay linked. Stay running.</title>
+  <meta name="description" content="AlwaysConnected is AI-powered connectivity, automation, and business infrastructure. Keep people, systems, and workflows online." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true"></span>
+      AlwaysConnected
+    </a>
+    <nav>
+      <a href="#layers">Layers</a>
+      <a href="#systems">Systems</a>
+      <a href="#status">Status</a>
+      <a class="btn ghost" href="https://github.com/huntermyers103121-png/AlwaysConnected" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">
+        <span class="pulse"></span>
+        Infrastructure layer · v0 public
+      </p>
+      <h1>Stay linked.<br />Stay running.</h1>
+      <p class="lede">
+        AlwaysConnected is the control surface for AI-powered connectivity,
+        automation, and business infrastructure. One public map for the systems
+        that keep work, people, and workflows from dropping offline.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#layers">Read the stack</a>
+        <a class="btn ghost" href="docs/architecture.html">Architecture</a>
+      </div>
+      <dl class="stats">
+        <div>
+          <dt>Surface</dt>
+          <dd>Public site</dd>
+        </div>
+        <div>
+          <dt>Host</dt>
+          <dd>GitHub Pages</dd>
+        </div>
+        <div>
+          <dt>Cost to launch</dt>
+          <dd>$0 domain / $0 hosting</dd>
+        </div>
+        <div>
+          <dt id="live-clock">--:--:--</dt>
+          <dd>Local time</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section id="layers" class="section">
+      <header class="section-head">
+        <p class="eyebrow">Four layers</p>
+        <h2>What AlwaysConnected actually is</h2>
+        <p>
+          Not a social network. Not a generic chatbot. A stack that keeps
+          connections alive between people, agents, and operating systems.
+        </p>
+      </header>
+      <div class="cards four">
+        <article class="card">
+          <span class="idx">01</span>
+          <h3>Connect</h3>
+          <p>Presence, routing, and a single place that answers “is this still live?” across devices and agents.</p>
+        </article>
+        <article class="card">
+          <span class="idx">02</span>
+          <h3>Automate</h3>
+          <p>Job ledgers, scheduled runs, and multi-agent control so work continues when you are not at the keyboard.</p>
+        </article>
+        <article class="card">
+          <span class="idx">03</span>
+          <h3>Operate</h3>
+          <p>Status, retries, and a visible trail of what ran, what failed, and what is waiting on a human.</p>
+        </article>
+        <article class="card">
+          <span class="idx">04</span>
+          <h3>Build</h3>
+          <p>Business infrastructure: public site, product surface, and a path to paid systems without a hosting bill on day one.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="systems" class="section">
+      <header class="section-head">
+        <p class="eyebrow">System map</p>
+        <h2>What ships in public vs what stays private</h2>
+      </header>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>System</th>
+              <th>Role</th>
+              <th>v0</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Public site</td>
+              <td>Brand, story, architecture map</td>
+              <td><span class="chip on">Live in this repo</span></td>
+            </tr>
+            <tr>
+              <td>GitHub Pages</td>
+              <td>Free public URL, no domain purchase</td>
+              <td><span class="chip wait">Enable in Settings → Pages</span></td>
+            </tr>
+            <tr>
+              <td>Architecture docs</td>
+              <td>Layers, boundaries, what never goes in git</td>
+              <td><span class="chip on">Published</span></td>
+            </tr>
+            <tr>
+              <td>Agent control board</td>
+              <td>Local / Termux runners, job queue, human gate</td>
+              <td><span class="chip off">Private — not in this site</span></td>
+            </tr>
+            <tr>
+              <td>Money movement</td>
+              <td>Legal payouts via official processors only</td>
+              <td><span class="chip off">Private — keys never here</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="status" class="section">
+      <header class="section-head">
+        <p class="eyebrow">Now</p>
+        <h2>v0 is the public front door</h2>
+        <p>
+          This repository is the first version you can show someone. The
+          operating systems stay off the public internet until they have
+          auth, audit logs, and no secrets in the tree.
+        </p>
+      </header>
+      <ol class="steps">
+        <li>
+          <strong>Repo exists.</strong>
+          <span>huntermyers103121-png / AlwaysConnected</span>
+        </li>
+        <li>
+          <strong>Site files are in <code>main</code>.</strong>
+          <span>index.html, styles, docs</span>
+        </li>
+        <li>
+          <strong>Turn on Pages.</strong>
+          <span>Settings → Pages → Deploy from branch <code>main</code> / root</span>
+        </li>
+        <li>
+          <strong>Share the URL.</strong>
+          <span>https://huntermyers103121-png.github.io/AlwaysConnected/</span>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>AlwaysConnected · public infrastructure surface</p>
+    <p class="muted">No passwords, tokens, or processor keys belong in this repository.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
